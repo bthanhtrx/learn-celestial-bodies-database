@@ -163,3 +163,4 @@ psql -U postgre < universe.sql
 psql -U postgre < universe.sql
 psql -U postgres < universe.sql
 psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
